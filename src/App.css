@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+footer a:hover {
+  color: #ffc107; /* Change color on hover */
+  transition: color 0.3s ease;
+}
+.nav-link.text-white {
+  color: #ffffff !important; /* or any other white shade you prefer */
+}
+.home-data{
+  margin : 20vh auto 0 !important;
+  text-align: center;
+}
+.user-form {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  margin: 40px auto;
+  width: 50%;
+  max-width: 500px;
+  margin-bottom: 10%;
+}
+
+.user-form h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.user-form label {
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: block;
+  font-size: 16px;
+}
+
+.dropdown-toggle::after {
+    display: none !important;
+    
+}
+
+.user-form input[type="email"],
+.user-form input[type="password"] {
+  width: 100%;
+  height: 45px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.user-form input[type="checkbox"] {
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.user-form .text-danger {
+  color: #f44336;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.user-form button[type="submit"] {
+  width: 100%;
+  height: 45px;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  
+}
+
+.user-form button[type="submit"]:hover {
+  background-color: #3e8e41;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* add some hover effect */
+
+}
+
+.user-form .form-group {
+  margin-bottom: 25px;
+}
+
+.user-form .form-group:last-child {
+  margin-bottom: 0;
+}
+
+
+
+
+.table img {
+  display: block; /* Ensure images are block elements */
+  margin: 0 auto; /* Center images */
+  border-radius: 50%; /* Make images circular */
+}
+
+.table td {
+  vertical-align: middle; /* Vertically center the cell contents */
+}
+
